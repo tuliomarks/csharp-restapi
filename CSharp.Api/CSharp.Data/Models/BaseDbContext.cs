@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace Albelli.Data.Models
+namespace CSharp.Data.Models
 {
     public partial class BaseDbContext : DbContext
     {

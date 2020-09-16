@@ -1,12 +1,12 @@
-﻿using Albelli.Data.Models;
-using Albelli.Data.Dependencies;
+﻿using CSharp.Data.Models;
+using CSharp.Data.Dependencies;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 
-namespace Albelli.Data.Repositories
+namespace CSharp.Data.Repositories
 {
     public class CustomerRepository: ICustomerRepository
     {

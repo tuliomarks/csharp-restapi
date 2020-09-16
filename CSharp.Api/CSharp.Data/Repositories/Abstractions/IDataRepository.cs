@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Albelli.Data.Dependencies
+namespace CSharp.Data.Dependencies
 {
     public interface IDataRepository<TEntity>
     {

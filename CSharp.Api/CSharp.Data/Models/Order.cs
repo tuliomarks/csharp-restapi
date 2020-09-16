@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Albelli.Data.Models
+namespace CSharp.Data.Models
 {
     public partial class Order
     {
