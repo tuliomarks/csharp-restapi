@@ -1,6 +1,9 @@
 # CSharp Rest API
 
-This API expose endpoints for Customers and Orders.
+It was built for study purpose, some parts can appear incompleted, but it's only a start.
+Everything here could be improved :) always look for that.
+
+This API expose endpoints for Customers and Orders. 
 
 *	Return a list of customers, without orders;
 *	Return a customer and his orders;
