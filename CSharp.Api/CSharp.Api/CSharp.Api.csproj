@@ -17,5 +17,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CSharp.Data\CSharp.Data.csproj" />
+  </ItemGroup>
+
 
 </Project>
