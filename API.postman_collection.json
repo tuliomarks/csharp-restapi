@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "02866d96-af31-40bf-9fe9-81d05f45b1f6",
+		"name": "Albelli API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Customers/List",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44393/api/v1/customers",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44393",
+					"path": [
+						"api",
+						"v1",
+						"customers"
+					]
+				},
+				"description": "Return a list of customers without related tables"
+			},
+			"response": []
+		},
+		{
+			"name": "Customers/Get",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44393/api/v1/customers/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44393",
+					"path": [
+						"api",
+						"v1",
+						"customers",
+						"1"
+					]
+				},
+				"description": "Return a list of customers without related tables"
+			},
+			"response": []
+		},
+		{
+			"name": "Customers/Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Maria\",\r\n    \"email\": \"maria@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44393/api/v1/customers/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44393",
+					"path": [
+						"api",
+						"v1",
+						"customers",
+						""
+					]
+				},
+				"description": "Return a list of customers without related tables"
+			},
+			"response": []
+		},
+		{
+			"name": "Orders/Add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\": 2,\r\n    \"price\": 200,\r\n    \"createdDate\": \"2020-08-30T09:00:00.403\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44393/api/v1/orders/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44393",
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						""
+					]
+				},
+				"description": "Return a list of customers without related tables"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
