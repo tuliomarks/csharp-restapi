@@ -30,7 +30,7 @@ namespace CSharp.Api
         {
             services.AddDbContext<BaseDbContext>(opts =>
                     //opts.UseLazyLoadingProxies()
-                    opts.UseSqlServer(Configuration["ConnectionString:AlbelliDB"])
+                    opts.UseSqlServer(Configuration["ConnectionString:MSSQLDB"])
             );
 
             services.AddRepositoriesDependencies();
